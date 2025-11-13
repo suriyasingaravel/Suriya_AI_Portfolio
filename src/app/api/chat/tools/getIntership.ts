@@ -3,25 +3,33 @@ import { z } from 'zod';
 
 export const getInternship = tool({
   description:
-    "Gives a summary of what kind of internship I'm looking for, plus my contact info and how to reach me. Use this tool when the user asks about my internship search or how to contact me for opportunities.",
+    "Gives a summary of what kind of job opportunities I'm looking for, plus my contact info and how to reach me. Use this tool when the user asks about my job search or how to contact me for opportunities.",
   parameters: z.object({}),
   execute: async () => {
-    return `Here’s what I’m looking for 👇
+    return `Here's what I'm looking for 👇
 
-- 📅 **Duration**: 6-month internship starting **September 2025**
-- 🌍 **Location**: Preferably **San Francisco** or anywhere in the **United States**
-- 🧑‍💻 **Focus**: AI development, full-stack web apps, SaaS, agentic workflows
-- 🛠️ **Stack**: Python, React/Next.js, Tailwind CSS, TypeScript, GPT, RAG, etc.
-- 💼 **Visa**: I’m based in Paris 🇫🇷 so I might need **J-1 sponsorship**
-- ✅ **What I bring**: Real experience with secure on-prem GPTs (Lighton), deepsearch engines, custom RAG tools, and hackathon wins like **ETH Oxford** & **Paris Blockchain Week**
-- 🔥 I move fast, learn faster, and I’m HUNGRYYYYY for big challenges
+- 💼 **Role**: Fullstack Developer or AI Engineer positions
+- ⏰ **Availability**: Immediate - Ready to start ASAP
+- 🌍 **Location**: Bengaluru, India 🇮🇳 (Open to Remote/Hybrid/Onsite)
+- 🎯 **Focus**: AI-powered web applications, LLM integration, intelligent systems
+- 🛠️ **Stack**: React.js, Next.js, Node.js, Python, TypeScript, LangChain, LangGraph, CrewAI
+- 💡 **Specialization**: MERN stack development + AI integration (RAG, Agentic AI)
+- ✅ **What I bring**: 3+ years fullstack experience, currently building AI applications at HOGR, hands-on with LangChain ecosystem and CrewAI framework
+- 🚀 Fast learner, problem solver, and passionate about building intelligent applications that solve real problems
+
+**Current Experience:**
+- Software Engineer at HOGR Food Network Pvt Ltd
+- Building scalable React.js/Next.js applications
+- API integration and performance optimization
+- Learning AI agent development and LLM integration
 
 📬 **Contact me** via:
-- Email: raphaelgiraud12@gmail.com
-- LinkedIn: [linkedin.com/in/raphael-giraud](https://www.linkedin.com/in/raphael-giraud-ai/)
-- GitHub: [github.com/raphaelgiraud](https://github.com/toukoum)
+- Email: [suriyasingaravel710@gmail.com](mailto:suriyasingaravel710@gmail.com)
+- LinkedIn: [linkedin.com/in/suriya-singaravel](https://www.linkedin.com/in/suriya-singaravel/)
+- GitHub: [github.com/suriyasingaravel](https://github.com/suriyasingaravel)
+- Portfolio: [suriyasingaravel.github.io](https://suriyasingaravel.github.io/)
 
-Let's build cool shit together ✌️
+Let's build something amazing together! 🚀
     `;
   },
 });

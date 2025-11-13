@@ -4,334 +4,189 @@ import { ChevronRight, Link } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { url } from 'inspector';
 
-// Enhanced project content array with all projects
+// Enhanced project content array with your actual projects
 const PROJECT_CONTENT = [
   {
-    title: 'Synto',
+    title: 'ChocoChip.ai',
     description:
-      'Synto is an AI-powered interface that transforms complex blockchain interactions into simple, natural language commands. Whether you want to send tokens, stake assets, swap coins, or even create NFTs or liquidity pools, just tell Synto what to do — no manual wallet interactions, no technical jargon. One of my biggest projects yet',
+      'AI-powered virtual assistant platform for the restaurant industry featuring a dual-interface system. Built with Laravel-based admin dashboard for restaurant owners and React.js + Tailwind CSS chatbot interface for customer interactions. This project enhances customer experience through intelligent automation and demonstrates real-world AI integration in business applications.',
     techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'Web3.js',
-      'shadcn-ui',
-      'TypeScript',
-      'Phantom Wallet',
+      'Laravel',
+      'React.js',
+      'Tailwind CSS',
+      'JavaScript',
+      'PHP',
+      'MySQL',
       'OpenAI API',
-      'Vercel AI SDK',
-      'Solana Agent kit',
-      'Neon',
-      'Prisma'
+      'REST APIs',
     ],
     date: '2025',
     links: [
       {
         name: 'website',
-        url: 'https://synto.fun',
+        url: 'https://chocochip.ai',
       },
       {
-        name: 'Launch Video',
-        url: 'https://www.youtube.com/watch?v=4QUE2KgKDUw',
+        name: 'GitLab',
+        url: 'https://github.com/suriyasingaravel/chocochip-ai',
       },
-      {
-        name: 'X',
-        url: 'https://x.com/chainSynto',
-      },
-      {
-        name: 'Technical Video',
-        url: 'https://www.youtube.com/watch?v=1CjBLKPUwtA&feature=youtu.be',
-      },
-      {
-        name: 'Pitch Deck',
-        url: 'https://drive.google.com/file/d/1B3m44mEgv81rJHfjNfTKi147yX4raQed/view?usp=sharing',
-      },
-      {
-        name: 'Usage tutorial',
-        url: 'https://www.youtube.com/watch?v=PRu1cfvT2bA',
-      }
     ],
     images: [
       {
-        src: '/synto1.png',
-        alt: 'Synto landing page',
+        src: '/chocochip1.png',
+        alt: 'ChocoChip.ai landing page',
       },
       {
-        src: '/synto2.png',
-        alt: 'Synto chat interface',
+        src: '/chocochip2.png',
+        alt: 'ChocoChip.ai admin dashboard',
       },
       {
-        src: '/synto3.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto4.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto5.png',
-        alt: 'Synto chat interface',
-      },
-      {
-        src: '/synto6.png',
-        alt: 'Synto chat interface',
+        src: '/chocochip3.png',
+        alt: 'ChocoChip.ai chatbot interface',
       },
     ],
   },
   {
-    title: 'Rrate',
+    title: 'HOGR',
     description:
-      "Rrate is a fun website to allow user to compare his salary with the richest people in the world. Try it now it's online!",
-    techStack: ['Html', 'Css', 'Javascript'],
+      'Official online presence of HOGR Food Network Limited, showcasing brand identity, services, and digital ordering capabilities. Built with modern web technologies focusing on responsive design, performance optimization, and seamless user experience. Features comprehensive service showcase and integrated ordering system.',
+    techStack: [
+      'HTML',
+      'CSS',
+      'Javascript',
+      'Laravel',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+    ],
     date: '2024',
     links: [
       {
         name: 'website',
-        url: 'https://rrate.app',
+        url: 'https://hogr.in',
       },
       {
-        name: 'github',
-        url: 'https://github.com/toukoum/Rrate',
+        name: 'GitLab',
+        url: 'https://git.masalabox.com:9999/hogr/smartwaiter',
       },
     ],
     images: [
       {
-        src: '/rrate1.png',
-        alt: 'Rrate landing page',
+        src: '/hogr1.png',
+        alt: 'HOGR landing page',
       },
       {
-        src: '/rrate2.png',
-        alt: 'Rrate comparison page',
+        src: '/hogr2.png',
+        alt: 'HOGR services section',
       },
       {
-        src: '/rrate3.png',
-        alt: 'Rrate comparison page',
+        src: '/hogr3.png',
+        alt: 'HOGR restaurant page',
       },
     ],
   },
   {
-    title: 'Defai',
+    title: 'HOGR Ordering Web App',
     description:
-      "We Win ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
+      'Mobile-first web application designed to simplify and enhance the restaurant ordering experience for HOGR Foods. Features intuitive user interface, real-time order tracking, secure payment integration, and optimized performance for both mobile and desktop platforms. Built with focus on user experience and conversion optimization.',
     techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Vercel AI SDK',
-      'TypeScript',
+      'React.js',
+      'Tailwind CSS',
+      'Redux',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'JWT',
+    ],
+    date: '2024',
+    links: [
+      {
+        name: 'website',
+        url: 'https://stage.qr.hogr.app/dinein/ChIJd16ktFwMCDsRAHB_n-rUnfo/51747/41c248b1',
+      },
+      {
+        name: 'GitLab',
+        url: 'https://git.masalabox.com:9999/hogr/hogr-website-react',
+      },
+    ],
+    images: [
+      {
+        src: '/hograpp1.png',
+        alt: 'HOGR Ordering App home screen',
+      },
+      {
+        src: '/hograpp2.png',
+        alt: 'HOGR Ordering App menu interface',
+      },
+      {
+        src: '/hograpp3.png',
+        alt: 'HOGR Ordering App checkout process',
+      },
+    ],
+  },
+  {
+    title: 'Skillsync',
+    description:
+      'SkillSync is an AI-powered career advisor platform designed to help users analyze their resumes and job descriptions to provide personalized career guidance. It compares skills and experience, identifies gaps, offers tailored learning paths.',
+    techStack: ['React.js', 'FastAPI', 'Python', 'Tailwind CSS'],
+    date: '2025',
+    links: [
+      {
+        name: 'website',
+        url: 'https://skill-sync-pdqt5j3r9-suriyas-projects-b4e0ecb8.vercel.app/',
+      },
+      {
+        name: 'github',
+        url: 'https://github.com/suriyasingaravel/SkillSync',
+      },
+    ],
+    images: [
+      {
+        src: '/skillsync2.png',
+        alt: 'Skillsync dashboard',
+      },
+      {
+        src: '/skillsync1.png',
+        alt: 'Skillsync matchmaking interface',
+      },
+    ],
+  },
+  {
+    title: 'AI Trip Planner',
+    description:
+      'AI Trip Planner is a personalized travel itinerary generator that leverages artificial intelligence to recommend destinations, create detailed schedules, and suggest activities based on user preferences, budget, and travel dates. The application streamlines trip planning by providing smart, real-time suggestions and comprehensive travel recommendations.',
+    techStack: [
+      'React.js',
+      'JavaScript',
+      'Tailwind CSS',
+      'Gemini API',
+      'LangChain',
+      'FastAPI',
     ],
     date: '2025',
     links: [
       {
         name: 'website',
-        url: 'https://dorahacks.io/buidl/22605',
+        url: 'https://aitripplanner-jw84jux3i-suriyas-projects-b4e0ecb8.vercel.app/',
       },
       {
         name: 'github',
-        url: 'https://github.com/toukoum/DEFAI',
-      },
-      {
-        name: 'LinkedIn',
-        url: 'https://www.linkedin.com/feed/update/urn:li:activity:7299337190151483392/',
-      },
-      {
-        name: 'Youtube Video',
-        url: 'https://www.youtube.com/watch?v=N9O7los4-ng&t=34s&ab_channel=Toukoum',
-      }
-    ],
-    images: [
-      {
-        src: '/defai1.png',
-        alt: 'Landing Page of Defai',
-      },
-      {
-        src: '/defai2.png',
-        alt: 'Confirmation popup of Defai',
-      },
-      {
-        src: '/defai3.png',
-        alt: 'Chatbot of Defai',
-      },
-      {
-        src: '/defai4.jpeg',
-        alt: 'Winner team',
-      },
-    ],
-  },
-  {
-    title: 'Fitgear',
-    description:
-      'Won the Gotta Go Hack IA by building Fitgear, a virtual voice seller accessible by QR code to improve the ratio between customers and sellers. Created an AI pipeline with API calls and a RAG system for natural language interactions.',
-    techStack: ['Next.js', 'TailwindCSS', 'OpenAI API', 'Langchain'],
-    date: '2024',
-    links: [
-      {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/posts/raphael-giraud-60939519a_hackathon-innovation-sporttech-activity-7210399263774674946-qSXq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC6vwikBVSEkS7XWktWS7y6GR3GHwAlKslc',
+        url: 'https://github.com/suriyasingaravel/AI_Trip_Planner',
       },
     ],
     images: [
       {
-        src: '/fitgear2.png',
-        alt: 'Fitgear chatbot',
+        src: '/aitripplanner1.png',
+        alt: 'AI Trip Planner home page',
       },
       {
-        src: '/fitgear1.png',
-        alt: 'Fitgear landing page',
-      },
-    ],
-  },
-  {
-    title: 'Datai',
-    description:
-      "DATAI is an AI-powered agent that lets non-technical users query a database using natural language without writing SQL. Built using Next.js, TailwindCSS, shadcn-ui, and Anthropic's Claude API, this project focuses on simplicity, speed, and user-friendly design.",
-    techStack: [
-      'Next.js',
-      'TailwindCSS',
-      'shadcn-ui',
-      'Claude API',
-      'TypeScript',
-    ],
-    date: '2024',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/datai',
+        src: '/aitripplanner2.png',
+        alt: 'AI Trip Planner itinerary ',
       },
       {
-        name: 'Youtube Video Demo',
-        url: 'https://youtu.be/iE0RXjdbQsw',
-      }
-    ],
-    images: [
-      {
-        src: '/datai1.png',
-        alt: 'Datai landing page',
+        src: '/aitripplanner3.png',
+        alt: 'AI Trip Planner Cost Split',
       },
-      {
-        src: '/datai2.png',
-        alt: 'Datai chatbot',
-      },
-      {
-        src: '/datai3.png',
-        alt: 'Datai chatbot',
-      },
-      {
-        src: '/datai4.png',
-        alt: 'Datai chatbot',
-      }
-    ],
-  },
-  {
-    title: '3d Pong Game',
-    description:
-      "Transcendance is the final project of my 42 cursus. It's a 3D pong game with multiplayer capabilities, user authentication, and real-time gameplay. We had to do everything from scratch, so it was pretty challenging and we learned a lot.",
-    techStack: ['Django', 'Python', 'JavaScript', 'Websockets', 'PostgreSQL', 'Docker', 'Nginx', 'Web3', 'Solidity'],
-    date: '2023',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/Transcendance',
-      },
-    ],
-    images: [
-      {
-        src: '/trans1.png',
-        alt: 'Transcendance landing page',
-      },
-      {
-        src: '/trans2.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans3.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans4.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans5.png',
-        alt: 'Transcendance game',
-      },
-      {
-        src: '/trans6.png',
-        alt: 'Transcendance game',
-      }
-
-    ],
-  },
-  {
-    title: 'Minishell',
-    description:
-      "Minishell is a project that aims to create a simple shell. It's a great introduction to process creation and management in C, offering fundamental Unix command-line functionality. This was a very challenging project, but I learned a lot from it.",
-    techStack: ['C', 'Unix', 'Bash'],
-    date: '2023',
-    links: [
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/Michelle-42',
-      },
-    ],
-    images: [
-      {
-        src: '/minishell1.png',
-        alt: 'Minishell landing page',
-      }
-    ],
-  },
-  {
-    title: 'YouBot',
-    description:
-      'YouBot is a Python Bot that Scrapes Videos from Pexels, adds a random song from a Songs Folder, then auto-uploads the videos to your YouTube Channel for continuous content generation.',
-    techStack: ['Python', 'YouTube API', 'Pexels API'],
-    date: '2022',
-    links: [
-      {
-        name: "YouTube Video",
-        url: "https://youtu.be/vp1v5mBG7rA "
-      },
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/YouBot',
-      }
-    ],
-    images: [
-      {
-        src: '/youbot1.jpg',
-        alt: 'Youbot landing page',
-      },
-      {
-        src: '/youbot2.png',
-        alt: 'Youbot chatbot',
-      },
-    ],
-  },
-  {
-    title: 'Old Portfolio',
-    description:
-      'My previous traditional portfolio built with vanilla HTML, CSS and JS with GSAP animations for a smooth and interactive user experience.',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'GSAP'],
-    date: '2022',
-    links: [
-      {
-        name: 'Website',
-        url: 'https://toukoum.github.io/oldPortfolio/',
-      },
-      {
-        name: 'GitHub',
-        url: 'https://github.com/toukoum/portfolio',
-      },
-    ],
-    images: [
-      {
-        src: '/oldport1.png',
-        alt: 'Old Portfolio landing page',
-      },
-      {
-        src: '/oldport2.png',
-        alt: 'Old Portfolio projects',
-      }
     ],
   },
 ];
@@ -363,7 +218,7 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
             <span>{projectData.date}</span>
           </div>
 
-          <p className="text-secondary-foreground font-sans text-base leading-relaxed md:text-lg">
+          <p className="font-sans text-base leading-relaxed text-black md:text-lg dark:text-white">
             {projectData.description}
           </p>
 
@@ -389,25 +244,27 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
       {/* Links section */}
       {projectData.links && projectData.links.length > 0 && (
         <div className="mb-24">
-          <div className="px-6 mb-4 flex items-center gap-2">
+          <div className="mb-4 flex items-center gap-2 px-6">
             <h3 className="text-sm tracking-wide text-neutral-500 dark:text-neutral-400">
               Links
             </h3>
-            <Link className="text-muted-foreground w-4" />
+            <Link className="w-4 text-neutral-500 dark:text-neutral-400" />
           </div>
           <Separator className="my-4" />
           <div className="space-y-3">
             {projectData.links.map((link, index) => (
-                <a
+              <a
                 key={index}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-[#F5F5F7] flex items-center justify-between rounded-xl p-4 transition-colors hover:bg-[#E5E5E7] dark:bg-neutral-800 dark:hover:bg-neutral-700"
-                >
-                <span className="font-light capitalize">{link.name}</span>
-                <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </a>
+                className="group flex items-center justify-between rounded-xl bg-[#F5F5F7] p-4 transition-colors hover:bg-[#E5E5E7] dark:bg-neutral-800 dark:hover:bg-neutral-700"
+              >
+                <span className="font-light text-black capitalize dark:text-white">
+                  {link.name}
+                </span>
+                <ChevronRight className="h-4 w-4 text-black transition-transform group-hover:translate-x-1 dark:text-white" />
+              </a>
             ))}
           </div>
         </div>
@@ -437,60 +294,36 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
   );
 };
 
-// Main data export with updated content
+// Main data export with your updated projects
 export const data = [
   {
-    category: 'Startup Project',
-    title: 'Synto',
-    src: '/syntopreview.png',
-    content: <ProjectContent project={{ title: 'Synto' }} />,
+    category: 'Production Level Project',
+    title: 'ChocoChip.ai',
+    src: '/chocochip-preview.png',
+    content: <ProjectContent project={{ title: 'ChocoChip.ai' }} />,
   },
   {
-    category: 'Fun Tool',
-    title: 'Rrate',
-    src: '/ratepreview.png',
-    content: <ProjectContent project={{ title: 'Rrate' }} />,
+    category: 'Company Project',
+    title: 'HOGR',
+    src: '/hogr.png',
+    content: <ProjectContent project={{ title: 'HOGR' }} />,
+  },
+  {
+    category: 'Mobile Application',
+    title: 'HOGR Ordering Web App',
+    src: '/hograpp.png',
+    content: <ProjectContent project={{ title: 'HOGR Ordering Web App' }} />,
   },
   {
     category: 'Hackathon Winner',
-    title: 'Defai',
-    src: '/defaipreview.png',
-    content: <ProjectContent project={{ title: 'Defai' }} />,
+    title: 'Skillsync',
+    src: '/skillsync.png',
+    content: <ProjectContent project={{ title: 'Skillsync' }} />,
   },
   {
-    category: 'Hackathon Winner',
-    title: 'Fitgear',
-    src: '/fitgearpreview.png',
-    content: <ProjectContent project={{ title: 'Fitgear' }} />,
-  },
-  {
-    category: 'Business Intelligence',
-    title: 'Datai',
-    src: '/dataipreview.png',
-    content: <ProjectContent project={{ title: 'Datai' }} />,
-  },
-  {
-    category: '42 Project',
-    title: '3d Pong Game',
-    src: '/transcendancepreview.png',
-    content: <ProjectContent project={{ title: '3d Pong Game' }} />,
-  },
-  {
-    category: '42 Project',
-    title: 'Minishell',
-    src: '/minishellpreview.png',
-    content: <ProjectContent project={{ title: 'Minishell' }} />,
-  },
-  {
-    category: 'Automation',
-    title: 'YouBot',
-    src: '/youbotpreview.png',
-    content: <ProjectContent project={{ title: 'YouBot' }} />,
-  },
-  {
-    category: 'Web Development',
-    title: 'Old Portfolio',
-    src: '/oldportfoliopreview.png',
-    content: <ProjectContent project={{ title: 'Old Portfolio' }} />,
+    category: 'Personal Project',
+    title: 'AI Trip Planner',
+    src: '/aitripplanner.png',
+    content: <ProjectContent project={{ title: 'AI Trip Planner' }} />,
   },
 ];

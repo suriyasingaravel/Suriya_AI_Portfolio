@@ -7,13 +7,13 @@ import React from 'react';
 export function Presentation() {
   // Personal information
   const profile = {
-    name: 'Raphael Giraud',
-    age: '21 years old',
-    location: 'Paris, France',
+    name: 'Suriya Singaravel',
+    age: '27 years old',
+    location: 'Tamilnadu, India',
     // Add a newline character after the emoji
     description:
-      "Hey 👋\nI'm Raph also known as Toukoum. I'm a developer specializing in AI at 42 Paris. I'm working at LightOn AI in Paris. I'm passionate about AI, tech, Entrepreneurship and SaaS tech.",
-    src: '/profil-raph.png',
+      "Hey 👋\nI'm Suriya Singaravel. I'm a developer specializing in AI and Fullstack web applications. I'm working at HOGR Food Network Pvt Limited in Kochi. I'm passionate about AI, tech, building web applications and SaaS tech.",
+    src: '/profil-suriya.jpg',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
   };
@@ -71,7 +71,7 @@ export function Presentation() {
         </div>
 
         {/* Text content section */}
-        <div className="flex flex-col space-y">
+        <div className="space-y flex flex-col">
           <motion.div
             initial="hidden"
             animate="visible"
@@ -103,7 +103,7 @@ export function Presentation() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="mt-4 flex flex-wrap gap-2"
           >
-            {['AI', 'Developer', '42 Paris', 'Sport', 'SaaS Builder'].map(
+            {['Fullstack', 'Developer', 'AI Engineer', 'Frontend Engineer'].map(
               (tag) => (
                 <span
                   key={tag}

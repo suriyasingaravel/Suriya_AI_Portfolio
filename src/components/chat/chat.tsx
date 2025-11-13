@@ -289,17 +289,17 @@ const Chat = () => {
             animationDuration={1.5}
             label="Star"
             size={'sm'}
-            repoUrl="https://github.com/toukoum/portfolio"
+            repoUrl="https://github.com/suriyasingaravel/"
           />
         </div>
       </div>
 
-      {/* Fixed Avatar Header with Gradient */}
+      {/* Fixed Avatar Header with Gradient (Dark Mode) */}
       <div
         className="fixed top-0 right-0 left-0 z-50"
         style={{
           background:
-            'linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.95) 30%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%)',
+            'linear-gradient(to bottom, rgba(24,24,27,1) 0%, rgba(24,24,27,0.95) 30%, rgba(24,24,27,0.8) 50%, rgba(24,24,27,0) 100%)',
         }}
       >
         <div
@@ -378,27 +378,58 @@ const Chat = () => {
           </AnimatePresence>
         </div>
 
-        {/* Fixed Bottom Bar */}
-        <div className="sticky bottom-0 bg-white px-2 pt-3 md:px-0 md:pb-4">
-          <div className="relative flex flex-col items-center gap-3">
-            <HelperBoost submitQuery={submitQuery} setInput={setInput} />
-            <ChatBottombar
-              input={input}
-              handleInputChange={handleInputChange}
-              handleSubmit={onSubmit}
-              isLoading={isLoading}
-              stop={handleStop}
-              isToolInProgress={isToolInProgress}
-            />
+        {/* Fixed Bottom Bar (Dark Mode) */}
+        <div
+          style={{ borderTopRightRadius: '20px', borderTopLeftRadius: '20px' }}
+          className="sticky bottom-0 z-50 overflow-hidden border-t border-white/[0.08] bg-[#23272f]/90 backdrop-blur-3xl backdrop-saturate-150"
+        >
+          {/* Animated gradient background */}
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-[#6366f1]/5 via-transparent to-[#f472b6]/5 opacity-50" />
+          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#6366f1]/10 via-transparent to-transparent" />
+
+          {/* Content */}
+          <div className="relative mx-auto max-w-5xl px-3 py-3 sm:px-6 md:px-8 md:py-5">
+            <div className="flex flex-col gap-3 transition-all duration-300 md:gap-4">
+              {/* Helper Boost - Quick Questions */}
+              <div className="w-full transform transition-all duration-300 ease-out">
+                <HelperBoost submitQuery={submitQuery} setInput={setInput} />
+              </div>
+
+              {/* Chat Input Container */}
+              <div className="w-full">
+                <div className="group relative">
+                  {/* Glow effect on hover */}
+                  <div className="absolute rounded-3xl" />
+
+                  {/* Input wrapper */}
+                  <div className="relative rounded-2xl">
+                    <ChatBottombar
+                      input={input}
+                      handleInputChange={handleInputChange}
+                      handleSubmit={onSubmit}
+                      isLoading={isLoading}
+                      stop={handleStop}
+                      isToolInProgress={isToolInProgress}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom accent with gradient */}
+          <div className="pointer-events-none absolute inset-x-0 bottom-0">
+            <div className="h-px bg-gradient-to-r from-transparent via-[#6366f1]/30 to-transparent" />
           </div>
         </div>
+
         <a
-          href="https://x.com/toukoumcode"
+          href="https://x.com/suriya_singaravel"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed right-3 bottom-0 z-10 mb-4 hidden cursor-pointer items-center gap-2 rounded-xl px-4 py-2 text-sm hover:underline md:block"
         >
-          @toukoum
+          @suriya
         </a>
       </div>
     </div>

@@ -1,57 +1,79 @@
 ![image](assets/readme-photo.png)
- 
-# World's first AI portfolio 🤖✨  
 
-**Static portfolios are dead.**  
-So I built [toukoum.fr](https://toukoum.fr).
+# AI-Powered Portfolio - Suriya Singaravel 🤖✨
 
-Instead of making you scroll endlessly, my portfolio adapts to *you*.  
-Ask a question — my AI avatar replies instantly.
+**Static portfolios are outdated.**  
+So I built [suriyasingaravel.github.io](https://suriyasingaravel.github.io).
+
+Instead of making you scroll endlessly, my portfolio adapts to _you_.  
+Ask a question — my AI avatar replies instantly with personalized responses.
 
 ## 👇 What can you ask?
 
-- 🧠 **Tech recruiter?** Ask about my stack & results  
-- 💻 **Dev?** Dive into my code & mindset  
-- 🧑‍🤝‍🧑 **Friend or family?** See what I’ve been working on  
+- 🧠 **Tech recruiters?** Ask about my MERN stack expertise & AI integration projects
+- 💻 **Developers?** Dive into my React.js, Next.js, and LangChain experience
+- 🤖 **AI enthusiasts?** Learn about my work with CrewAI, LangGraph, and agentic AI
+- 🏢 **Hiring managers?** Discover my 3+ years of fullstack development experience
 
 ---
 
-This is not a portfolio.  
-It’s a **conversation tailored to your curiosity**.
+This is not just a portfolio.  
+It's a **conversation tailored to your curiosity**.
 
-➡️ **Try it now:** [https://toukoum.fr](https://toukoum.fr)  
-*What will you ask?*
+➡️ **Try it now:** [https://suriyasingaravel.github.io](https://suriyasingaravel.github.io)  
+_What will you ask about my journey from textile engineering to AI-powered web development?_
 
 ## 🚀 How to run
 
 Want to run this project locally? Here's what you need:
 
 ### Prerequisites
+
 - **Node.js** (v18 or higher)
 - **pnpm** package manager
 - **OpenAI API token** (for AI chat functionality)
 - **GitHub token** (for GitHub integration features)
 
 ### Setup
+
 1. **Clone the repository**
+
+## 🚀 How to run
+
+Want to run this project locally? Here's what you need:
+
+### Prerequisites
+
+- **Node.js** (v18 or higher)
+- **pnpm** package manager
+- **OpenAI API token** (for AI chat functionality)
+- **GitHub token** (for GitHub integration features)
+
+### Setup
+
+1. **Clone the repository**
+
    ```bash
    git clone <your-repo-url>
    cd portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    pnpm install
    ```
 
 3. **Environment variables**
    Create a `.env` file in the root directory:
+
    ```env
    OPENAI_API_KEY=your_openai_api_key_here
    GITHUB_TOKEN=your_github_token_here
    ```
 
 4. **Run the development server**
+
    ```bash
    pnpm dev
    ```
@@ -60,10 +82,9 @@ Want to run this project locally? Here's what you need:
    Navigate to `http://localhost:3000`
 
 ### Getting your **tokens**
+
 - **OpenAI API Key**: Get it from [platform.openai.com](https://platform.openai.com/api-keys)
 - **GitHub Token**: Generate one at [github.com/settings/tokens](https://github.com/settings/personal-access-tokens) with repo access
-
-
 
 #### 🔖 Tags
 
